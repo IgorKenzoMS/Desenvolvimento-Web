@@ -5,29 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UNES / Contato</title>
-    <style>
-        bor{margin-left: 225px; margin-right: 225px;}
-        links{margin-left: 485px;}
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <hr style="height:6px; border-width: 0; color:darkslateblue; background-color:darkslateblue;">
-    <bor>
+    <!-- Cabeçalho -->
+    <div class = "topo">
         <img src="imagens/logo.png" alt="Logo">
 
-        <links>
-            <a href="home.html">Home</a>
+        <span class = "link">
+            <a href="index.html">Home</a>
             |
             <a href="quem_somos.html">Quem Somos</a>
             |
             <a href="contato.html">Contato</a>
-        </links>
-        <br>
+        </span>
+    </div><br>
 
+    <!-- Texto -->
+    <div>
         <p>
-            <h1>
-                Entre em contato
-            </h1>
+            <h1>Entre em contato</h1>
+            
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
         <hr>
@@ -40,13 +38,18 @@
         <label for=""></label>
         <input type="text">
         <br><br>
-
+        
         Descrição: <br>
         <label for=""></label>
         <input type="text">
         <br><br>
 
         <input type="submit" value="Enviar">
-    </bor>
+    </div>
+
+        <!-- Rodapé -->
+        <div class="rodape">
+        <h4>Todos os direitos reservados</h4>
+    </div>
 </body>
 </html>
