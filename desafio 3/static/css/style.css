@@ -1,0 +1,21 @@
+body{
+    margin-left: 200px;
+    max-width: 900px;
+    /* border: 1px solid red; */
+}
+
+.topo{
+    margin-top: 40px;
+}
+
+.link{
+    margin-left: 450px;
+}
+
+.img{
+    margin-top: 15px;
+}
+
+.rodape{
+    text-align: center;
+}
